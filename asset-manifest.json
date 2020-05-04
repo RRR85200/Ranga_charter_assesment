@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/charter_assignment_ranga/static/css/main.353fa722.chunk.css",
+    "main.js": "/charter_assignment_ranga/static/js/main.5da1f9a4.chunk.js",
+    "main.js.map": "/charter_assignment_ranga/static/js/main.5da1f9a4.chunk.js.map",
+    "runtime-main.js": "/charter_assignment_ranga/static/js/runtime-main.40e82d2f.js",
+    "runtime-main.js.map": "/charter_assignment_ranga/static/js/runtime-main.40e82d2f.js.map",
+    "static/js/2.b7944635.chunk.js": "/charter_assignment_ranga/static/js/2.b7944635.chunk.js",
+    "static/js/2.b7944635.chunk.js.map": "/charter_assignment_ranga/static/js/2.b7944635.chunk.js.map",
+    "index.html": "/charter_assignment_ranga/index.html",
+    "precache-manifest.513c8c1b5669897de9431f36c0592c49.js": "/charter_assignment_ranga/precache-manifest.513c8c1b5669897de9431f36c0592c49.js",
+    "service-worker.js": "/charter_assignment_ranga/service-worker.js",
+    "static/css/main.353fa722.chunk.css.map": "/charter_assignment_ranga/static/css/main.353fa722.chunk.css.map",
+    "static/js/2.b7944635.chunk.js.LICENSE.txt": "/charter_assignment_ranga/static/js/2.b7944635.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40e82d2f.js",
+    "static/js/2.b7944635.chunk.js",
+    "static/css/main.353fa722.chunk.css",
+    "static/js/main.5da1f9a4.chunk.js"
+  ]
+}
