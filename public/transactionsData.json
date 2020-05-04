@@ -1,0 +1,110 @@
+{
+  "data": [
+        {
+          "customerName": "Ranga Rayapudi",
+          "id": 857665,
+          "date": "03-02-2020 11:37:50",
+          "amount": 120,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "John Doe",
+          "id": 857666,
+          "date": "04-02-2020 11:37:50",
+          "amount": 350,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "John Doe",
+          "id": 857667,
+          "date": "03-04-2020 11:37:50",
+          "amount": 150,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "John Doe",
+          "id": 857668,
+          "date": "03-01-2020 10:37:50",
+          "amount": 100,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "John Doe",
+          "id": 857669,
+          "date": "02-04-2020 9:37:50",
+          "amount": 90,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "John Doe",
+          "id": 857670,
+          "date": "01-03-2020 21:37:50",
+          "amount": 50,
+          "category": "Streaming"
+        },
+
+        {
+          "customerName": "Smith Doe",
+          "id": 857671,
+          "date": "04-03-2020 11:37:50",
+          "amount": 350,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857672,
+          "date": "03-04-2020 11:37:50",
+          "amount": 150,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857673,
+          "date": "03-01-2020 10:37:50",
+          "amount": 100,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857674,
+          "date": "02-04-2020 9:37:50",
+          "amount": 90,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857675,
+          "date": "01-03-2020 21:37:50",
+          "amount": 50,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857676,
+          "date": "01-03-2020 21:37:50",
+          "amount": 50,
+          "category": "Streaming"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857677,
+          "date": "01-04-2020 21:37:50",
+          "amount": 50,
+          "category": "Ethernet"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857678,
+          "date": "01-04-2020 21:37:50",
+          "amount": 50,
+          "category": "Sharing"
+        },
+        {
+          "customerName": "Smith Doe",
+          "id": 857679,
+          "date": "01-06-2020 21:37:50",
+          "amount": 150,
+          "category": "Internet"
+        }
+  ]
+}
