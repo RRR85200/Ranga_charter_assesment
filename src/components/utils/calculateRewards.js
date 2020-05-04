@@ -2,6 +2,7 @@ export const monthNames = ['January', 'February', 'March', 'April', 'May', 'June
     'July', 'August', 'September', 'October', 'November', 'December'
 ];
 
+/*Given an transaction Activity Calculate the rewards earned*/
 export const calculateRewardsForEachActivity = (activityAmount) => {
     let rewardsAbove100 = 0;
     let rewardsAbove50 = 0;
@@ -16,6 +17,7 @@ export const calculateRewardsForEachActivity = (activityAmount) => {
 };
 
 // Assuming the activities are with last 3 months
+/*Given an transactions Activity Calculate the rewards earned in a given month*/
 
 export const calculateRewardsByMonthInCurrentYear = (transactions, month) => {
     const activityInAGivenMonth = transactions.filter(activity => {

@@ -4,13 +4,19 @@ import CustomerFilter from '../customersFilter/CustomersFilter';
 import uniqBy from 'lodash/uniqBy';
 import UserRewardsSummary from "../userRewardsSummary/userRewardsSummary";
 
+/*
+* In this components I have used mostly.This is like the page where we display all the transactions in a table
+* */
+
 const initialTransactionData = {
     selectedCustomer: {
         name: ''
     },
     transactions: []
 }
-
+/*Reducer function for UseReducer Hook
+*  update select customer and add data
+* */
  const reducer = (state,action) => {
     switch (action.type) {
         case 'select_customer':
@@ -26,19 +32,24 @@ const initialTransactionData = {
 
 const TransactionList = (props) => {
 
+/*The number useState hooks are increasing and since state is getting complex changes to useReducer Hook*/
+
     const [state, dispatch] = useReducer(reducer, initialTransactionData);
     const [hasError, setError] = useState(false);
     const noUserSelected = {
         name: ''
     }
-
+ /*Perform side effects like fetching the transactions data
+ * Current data is stored in the pubic jason folder
+ * Used fetch instead of axios just to reduce the bundle size
+ * */
     useEffect(() => {
         const fetchTransactionList = async () => {
             try {
                 const response = await fetch('transactionsData.json');
                 const transactionData = await response.json();
-                dispatch({type:'add_data', payload: transactionData.data})
-                console.log(transactionData.data);
+                dispatch({type:'add_data', payload: transactionData.data});
+
                 if(hasError){
                     setError(false);
                 }
@@ -46,8 +57,11 @@ const TransactionList = (props) => {
                 setError(true);
             }
         };
+
         fetchTransactionList();
     }, [hasError]);
+
+    /*Filter Based on selected customer*/
 
     const getSelectedUserActivity = (selectedCustomerName) => {
        return state.transactions.filter(activity => {
@@ -55,6 +69,7 @@ const TransactionList = (props) => {
         });
     }
 
+    /* Filter and set the table props data*/
     const getTransactionsTableProps = () => {
         const selectedCustomerName = state.selectedCustomer.name;
         let filteredTransactions = [];
@@ -70,6 +85,9 @@ const TransactionList = (props) => {
         }
     };
 
+    /*Get all the customer Names , if w have unique id for customer, could filtered based on that
+    * Just used lodash to show the familiarity with that library
+    * */
     const getUniqCustomerNames = () => {
         const customersList = [];
         uniqBy(state.transactions, 'customerName').forEach(customer => {
@@ -81,12 +99,16 @@ const TransactionList = (props) => {
         return customersList;
     };
 
+    /*Handling the state and dispatching acting on user selection changed*/
+
     const handleFilterChange= (selectedUser) => {
         const payload = selectedUser ? selectedUser : noUserSelected;
          dispatch({type: 'select_customer', payload: payload});
     };
 
     const error = (hasError ? <div>Error Retreiving Transactions Data</div> : null);
+
+    /*Currently displaying the user summary only if a specific user is selected */
 
     const userRewardsSummary = () => {
         const selectedUser = state.selectedCustomer.name;
@@ -96,7 +118,7 @@ const TransactionList = (props) => {
         )
     };
 
-
+    /*Try changing the url to see the error*/
     return (
         <>
             {error}

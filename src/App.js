@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 const App = () => {
     const classes = useStyles();
 
+    /*Here I added Material UI Container and Use styles */
     return (
         <Container>
             <AppBar position="static">
@@ -28,3 +29,4 @@ const App = () => {
 };
 
 export default App;
+

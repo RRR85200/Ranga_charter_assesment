@@ -1,9 +1,47 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Task
+
+##Story
+: A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
+A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction
+(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
+
+Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
+
+##Assumptions
+1. Assuming this is an Admin Module where we see all users data.
+2. Data fetched is data of all the users activity in the last 3 months.
+3. The table can filtered by the user name.
+4. Initially admin sees all the customers activity and only when admin choses a specific user  his/her summary 
+   is displayed.
+5 Admin see a erro message when api call fails
+
+##How to Use
+1.Select the user from auto complete / Combo box
+2. The table is filtered by the selected user type
+3.Initially admin sees all the customers activity and only when user choosses a specific user  
+
+##Demo Link
+Git Hub Demo page: https://rrr85200.github.io/Ranga_charter_assesment/
+
+Sandbox Demo: https://codesandbox.io/s/github/RRR85200/Ranga_charter_assesment
+
+Git Hub Source Code: https://github.com/RRR85200/Ranga_charter_assesment
+
+<a href="https://rrr85200.github.io/Ranga_charter_assesment/" target="_blank">Demo Using Github</a><br>
+<a href="https://codesandbox.io/s/github/RRR85200/Ranga_charter_assesment" target="_blank">Demo Using Sandbox</a>
+![DemoPage](demopage.png)
+
 ## Notes:
 
 I have used the latest version of React, Material UI and Prop-types and lodash. 
-Please delete the package.lock if you run into an issue while installing packages
+Please delete the package.lock if you run into an issue while installing packages.
+
+
+
+## Project Structure
+Added empty containers folder just to show the pages or container components are added there.
 
 ## Environment
 

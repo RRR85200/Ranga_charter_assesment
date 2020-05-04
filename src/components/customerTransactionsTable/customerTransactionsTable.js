@@ -10,6 +10,11 @@ import TablePagination from '@material-ui/core/TablePagination';
 import TableRow from '@material-ui/core/TableRow';
 import PropTypes from 'prop-types';
 
+
+/*
+* THis component is build using MAterial UI
+* The table header is fixed and we can scroll the data and we can choose the rows per page and navigate along the ros
+* */
 const CustomerTransactionsTable = (props) => {
     const rows = props.data;
     const useStyles = makeStyles({
@@ -28,6 +33,7 @@ const CustomerTransactionsTable = (props) => {
     const [page, setPage] = useState(0);
     const [rowsPerPage, setRowsPerPage] = useState(5);
 
+/*For Now dynamically building the headers*/
     const headers = () => {
         const headerItems = [];
         if(rows.length >= 1) {
@@ -44,6 +50,8 @@ const CustomerTransactionsTable = (props) => {
         return headerItems;
     };
 
+    /*Custoum date formatter instead of using moment library to format the data*/
+
     const formatDate = (date) => {
         const activityDate = new Date(date);
 
@@ -53,6 +61,8 @@ const CustomerTransactionsTable = (props) => {
     const handlePageChange = (e, newpage) => {
        setPage(newpage);
     };
+
+    /*setting page number to zero when number of rows per page is changed*/
 
     const onChangeRowsPerPage = (e) => {
         setRowsPerPage(e.target.value);

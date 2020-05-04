@@ -3,6 +3,11 @@ import { monthNames, calculateRewardsByMonthInCurrentYear} from '../utils/calcul
 import PropTypes from "prop-types";
 import { makeStyles } from '@material-ui/core/styles';
 
+/*
+* Functional Component just to represent the Account summary for selected Customer
+* Here planned to use Material UI but wanted to use plain css to style the elements
+* */
+
 const UserRewardsSummary = (props) => {
     const currentMonth = new Date().getMonth();
     const currentMonthRewards = calculateRewardsByMonthInCurrentYear(props.transactionData, currentMonth);
