@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ranga_charter_assesment/precache-manifest.e10ea0ab27f948661ee8c122e9bf3997.js"
+  "/Ranga_charter_assesment/precache-manifest.6ef6f893bab5dc78b17dca5e12c7a77c.js"
 );
 
 self.addEventListener('message', (event) => {

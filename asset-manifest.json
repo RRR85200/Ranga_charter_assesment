@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Ranga_charter_assesment/static/css/main.353fa722.chunk.css",
-    "main.js": "/Ranga_charter_assesment/static/js/main.b4f83db8.chunk.js",
-    "main.js.map": "/Ranga_charter_assesment/static/js/main.b4f83db8.chunk.js.map",
+    "main.js": "/Ranga_charter_assesment/static/js/main.3718bd1d.chunk.js",
+    "main.js.map": "/Ranga_charter_assesment/static/js/main.3718bd1d.chunk.js.map",
     "runtime-main.js": "/Ranga_charter_assesment/static/js/runtime-main.0fa9a9ec.js",
     "runtime-main.js.map": "/Ranga_charter_assesment/static/js/runtime-main.0fa9a9ec.js.map",
     "static/js/2.b7944635.chunk.js": "/Ranga_charter_assesment/static/js/2.b7944635.chunk.js",
     "static/js/2.b7944635.chunk.js.map": "/Ranga_charter_assesment/static/js/2.b7944635.chunk.js.map",
     "index.html": "/Ranga_charter_assesment/index.html",
-    "precache-manifest.e10ea0ab27f948661ee8c122e9bf3997.js": "/Ranga_charter_assesment/precache-manifest.e10ea0ab27f948661ee8c122e9bf3997.js",
+    "precache-manifest.6ef6f893bab5dc78b17dca5e12c7a77c.js": "/Ranga_charter_assesment/precache-manifest.6ef6f893bab5dc78b17dca5e12c7a77c.js",
     "service-worker.js": "/Ranga_charter_assesment/service-worker.js",
     "static/css/main.353fa722.chunk.css.map": "/Ranga_charter_assesment/static/css/main.353fa722.chunk.css.map",
     "static/js/2.b7944635.chunk.js.LICENSE.txt": "/Ranga_charter_assesment/static/js/2.b7944635.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0fa9a9ec.js",
     "static/js/2.b7944635.chunk.js",
     "static/css/main.353fa722.chunk.css",
-    "static/js/main.b4f83db8.chunk.js"
+    "static/js/main.3718bd1d.chunk.js"
   ]
 }
