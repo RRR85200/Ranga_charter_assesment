@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/charter_assignment_ranga/static/css/main.353fa722.chunk.css",
-    "main.js": "/charter_assignment_ranga/static/js/main.5da1f9a4.chunk.js",
-    "main.js.map": "/charter_assignment_ranga/static/js/main.5da1f9a4.chunk.js.map",
-    "runtime-main.js": "/charter_assignment_ranga/static/js/runtime-main.40e82d2f.js",
-    "runtime-main.js.map": "/charter_assignment_ranga/static/js/runtime-main.40e82d2f.js.map",
-    "static/js/2.b7944635.chunk.js": "/charter_assignment_ranga/static/js/2.b7944635.chunk.js",
-    "static/js/2.b7944635.chunk.js.map": "/charter_assignment_ranga/static/js/2.b7944635.chunk.js.map",
-    "index.html": "/charter_assignment_ranga/index.html",
-    "precache-manifest.513c8c1b5669897de9431f36c0592c49.js": "/charter_assignment_ranga/precache-manifest.513c8c1b5669897de9431f36c0592c49.js",
-    "service-worker.js": "/charter_assignment_ranga/service-worker.js",
-    "static/css/main.353fa722.chunk.css.map": "/charter_assignment_ranga/static/css/main.353fa722.chunk.css.map",
-    "static/js/2.b7944635.chunk.js.LICENSE.txt": "/charter_assignment_ranga/static/js/2.b7944635.chunk.js.LICENSE.txt"
+    "main.css": "/Ranga_charter_assesment/static/css/main.353fa722.chunk.css",
+    "main.js": "/Ranga_charter_assesment/static/js/main.b4f83db8.chunk.js",
+    "main.js.map": "/Ranga_charter_assesment/static/js/main.b4f83db8.chunk.js.map",
+    "runtime-main.js": "/Ranga_charter_assesment/static/js/runtime-main.0fa9a9ec.js",
+    "runtime-main.js.map": "/Ranga_charter_assesment/static/js/runtime-main.0fa9a9ec.js.map",
+    "static/js/2.b7944635.chunk.js": "/Ranga_charter_assesment/static/js/2.b7944635.chunk.js",
+    "static/js/2.b7944635.chunk.js.map": "/Ranga_charter_assesment/static/js/2.b7944635.chunk.js.map",
+    "index.html": "/Ranga_charter_assesment/index.html",
+    "precache-manifest.e10ea0ab27f948661ee8c122e9bf3997.js": "/Ranga_charter_assesment/precache-manifest.e10ea0ab27f948661ee8c122e9bf3997.js",
+    "service-worker.js": "/Ranga_charter_assesment/service-worker.js",
+    "static/css/main.353fa722.chunk.css.map": "/Ranga_charter_assesment/static/css/main.353fa722.chunk.css.map",
+    "static/js/2.b7944635.chunk.js.LICENSE.txt": "/Ranga_charter_assesment/static/js/2.b7944635.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.40e82d2f.js",
+    "static/js/runtime-main.0fa9a9ec.js",
     "static/js/2.b7944635.chunk.js",
     "static/css/main.353fa722.chunk.css",
-    "static/js/main.5da1f9a4.chunk.js"
+    "static/js/main.b4f83db8.chunk.js"
   ]
 }
