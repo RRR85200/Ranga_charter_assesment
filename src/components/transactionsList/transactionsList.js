@@ -35,7 +35,7 @@ const TransactionList = (props) => {
     useEffect(() => {
         const fetchTransactionList = async () => {
             try {
-                const response = await fetch('/transactionsData.json');
+                const response = await fetch('transactionsData.json');
                 const transactionData = await response.json();
                 dispatch({type:'add_data', payload: transactionData.data})
                 console.log(transactionData.data);
