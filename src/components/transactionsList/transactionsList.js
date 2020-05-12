@@ -28,7 +28,14 @@ const initialTransactionData = {
         default:
             throw new Error();
     }
-}
+};
+
+const noTransactions = {
+    color: 'white',
+    backgroundColor: 'red',
+    padding: "10px",
+    fontFamily: "Arial"
+};
 
 const TransactionList = (props) => {
 
@@ -43,10 +50,16 @@ const TransactionList = (props) => {
  * Current data is stored in the pubic jason folder
  * Used fetch instead of axios just to reduce the bundle size
  * */
+
+    const myHeaders = new Headers({
+        'Content-Type': "application/json",
+        Accept: "application/json"
+    });
+
     useEffect(() => {
         const fetchTransactionList = async () => {
             try {
-                const response = await fetch('transactionsData.json');
+                const response = await fetch('/transactionsData.json', { headers: myHeaders});
                 const transactionData = await response.json();
                 dispatch({type:'add_data', payload: transactionData.data});
 
@@ -118,6 +131,12 @@ const TransactionList = (props) => {
         )
     };
 
+    const renderTable= () => {
+       return  (getTransactionsTableProps().data.length > 0)  ?
+            <CustomerTransactionsTable {...getTransactionsTableProps()}/> :
+            <div style={noTransactions}>No Results Found !!</div>
+    };
+
     /*Try changing the url to see the error*/
     return (
         <>
@@ -128,10 +147,10 @@ const TransactionList = (props) => {
                 onChange={handleFilterChange}
                 label='name'
             />
-            <CustomerTransactionsTable {...getTransactionsTableProps()}/>
+            {renderTable()}
             {userRewardsSummary()}
         </>
-    );
+    )
 };
 
 export default TransactionList;
